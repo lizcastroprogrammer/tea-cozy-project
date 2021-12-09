@@ -45,6 +45,7 @@ header a img {
 
 header nav ul {
   display: flex;
+  list-style-type: none;
 }
 
 nav li {
@@ -66,14 +67,26 @@ div .banner {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 60px;
 }
 
 div .mission {
     text-align: center;
     background-color: black;
     width: 1783px;
-    padding: 15px 0;
+    margin: 0;
     font-weight: bold;
+}
+
+div .mission h2 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+div .mission h4 {
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 div .tea-month {
@@ -105,6 +118,14 @@ div .images img {
     padding: 15px;
 }
 
+div .location-section {
+  background-image: url("./images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+
 div .location-section h2 {
   font-weight: bold;
 }
@@ -116,4 +137,16 @@ div .location-section h3 {
 div .locations {
   font-size: 1.75rem;
   padding-bottom: 1.45rem;
+}
+
+div .downtown {
+  background-color: black;
+}
+
+div .east-bayside {
+  background-color: black;
+}
+
+div .oakdale {
+  background-color: black;
 }
