@@ -62,7 +62,7 @@ div .banner {
     background-image: url("./images/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 31.82rem;
+    height: 38.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,12 +71,25 @@ div .banner {
 div .mission {
     text-align: center;
     background-color: black;
-    width: 1200px;
+    width: 1783px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+div .tea-month {
+  padding-top: 4.5rem;
+  padding-bottom: 1.45rem;
+}
+
+div .tea-month h2 {
+  font-size: 1.75rem;
+  padding-bottom: 1.45rem;
 }
 
 div .image-gallery {
     display: flex;
     justify-content: center;
+    padding-bottom: 5.5rem;
 }
 
 div .images {
@@ -90,4 +103,17 @@ div .images img {
     height: 200px;
     width: 300px;
     padding: 15px;
+}
+
+div .location-section h2 {
+  font-weight: bold;
+}
+
+div .location-section h3 {
+  font-weight: bold;
+}
+
+div .locations {
+  font-size: 1.75rem;
+  padding-bottom: 1.45rem;
 }
