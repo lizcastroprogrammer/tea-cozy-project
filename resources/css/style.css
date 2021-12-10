@@ -122,31 +122,60 @@ div .location-section {
   background-image: url("./images/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 800px;
+  background-position: center;
+  margin: 0 60px;
 }
-
 
 div .location-section h2 {
   font-weight: bold;
+
 }
 
 div .location-section h3 {
   font-weight: bold;
 }
 
+div .locations-container {
+  display: flex;
+  justify-content: center;
+}
+
 div .locations {
   font-size: 1.75rem;
-  padding-bottom: 1.45rem;
+  padding-bottom: 1rem;
+  padding-top: 1.2rem;
 }
 
 div .downtown {
   background-color: black;
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 300px;
+  margin-right: 40px;
+  line-height: 1.95;
 }
 
 div .east-bayside {
   background-color: black;
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 300px;
+  margin-right: 40px;
+  line-height: 1.95;
 }
 
 div .oakdale {
   background-color: black;
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 300px;
+  margin-right: 40px;
+  line-height: 1.95;
+}
+
+div .copyright {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 5px;
 }
